@@ -15,14 +15,13 @@ Check for SSL/TLS Vulnerabilities:
 Cygwin dependencies:
 * ncurses 
 
-
 Usage:
 
-bash httpsscan.sh [target] [port] [option]
+bash httpsscan.sh [target] or [targets file] -p [port] [option]
 
 Options:
 
-all, --all, a
+all, --all,
 
 ssl2, --ssl2
 
@@ -44,4 +43,4 @@ weak56, --weak56
 
 forward, --forward
 
-![ScreenShot](http://alexos.org/wp-content/uploads/2015/04/httpsscan5.png)
+[![asciicast](https://asciinema.org/a/vOgmfqvS0bGlZ5BJU7AbLZGw3.png)](https://asciinema.org/a/vOgmfqvS0bGlZ5BJU7AbLZGw3)
